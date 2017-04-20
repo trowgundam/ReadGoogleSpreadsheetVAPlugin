@@ -168,6 +168,7 @@ namespace ReadGoogleSpreadsheetVAPlugin
             {
                 vaProxy.SetText(variable, null);
             }
+            voiceAttackVariables.Clear();
 
             // Get the Google Sheet Id, which should be in the Context, Exit if it is Empty or Null
             string sheetId = vaProxy.Context;
